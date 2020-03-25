@@ -8,6 +8,12 @@ from reddit_visualizer.scrape import scrape_thread
 Gathers top levels comments from reddit. Threads with large amounts of comments take a large amount of time.
 A default cached thread is included for instant visualization. You will need to make a reddit api account to
 cache your own. See https://github.com/reddit-archive/reddit/wiki/oauth2.
+
+1) Processes comments
+2) Generates tfidf representations and assigns them to clusters for coloring
+3) Trains a t-SNE network to embed the tfidf representations and generates scatterplot.
+
+All intermediary files are saved in /cache.
 """
 thread_url = "https://www.reddit.com/r/politics/comments/fod02m/discussion_thread_white_house_coronavirus_task/"
 num_threads = 3
