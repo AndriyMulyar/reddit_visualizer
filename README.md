@@ -20,5 +20,5 @@ pip install git+https://github.com/AndriyMulyar/yellowbrick@develop
 ### Use
 Clone the repository, pip install it, then directly run any script in the examples folder.
 
-##### Implementation Details
+### Implementation Details
 Leverages praw for reddit api, yellowbrick as a wrapper for sklearn t-SNE, spacy for preprocessing.
