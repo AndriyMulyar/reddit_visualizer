@@ -1,8 +1,8 @@
-### Visual Reddit Threads with some NLP
+### Visualize Reddit Threads
 
 Converts a reddit thread ID to:
 - interactive t-SNE plots of comments.
-- Plots of various comment statistics (user counts, token statistics, etc).
+- Plots of various comment statistics (user counts, token statistics, etc) [TODO].
 
 See [examples](/examples).
 
