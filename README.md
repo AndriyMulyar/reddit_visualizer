@@ -15,6 +15,10 @@ and install a custom version of yellowbrick with:
 ```python
 pip install git+https://github.com/AndriyMulyar/yellowbrick@develop
 ```
-
-### Instructions
 ![TSNE Example](docs/tsne_example.png)
+
+### Use
+Clone the repository, pip install it, then directly run any script in the examples folder.
+
+##### Implementation Details
+Leverages praw for reddit api, yellowbrick as a wrapper for sklearn t-SNE, spacy for preprocessing.
